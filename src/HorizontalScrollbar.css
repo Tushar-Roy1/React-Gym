@@ -1,0 +1,25 @@
+.horizontal-scrollbar {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.arrow-container {
+  position: fixed;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.top-left {
+  top: 20px;
+  left: 20px;
+}
+
+.bottom-right {
+  bottom: 20px;
+  right: 20px;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
